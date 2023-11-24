@@ -6,7 +6,7 @@
 #' @export 
 #'
 #' @examples
-#' xpt_folder <- '/Users/zack/convert_xpt_to_sas'
+#' xpt_folder <- 'XX:/convert/xpt_test'
 #' xpt_files <- list.files(path = xpt_folder, pattern = "\\.xpt$", full.names = TRUE)
 #' for (file in xpt_files) {
 #' sas_file <- gsub("\\.xpt$", ".sas7bdat", file)
