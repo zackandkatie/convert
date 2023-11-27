@@ -1,6 +1,6 @@
 #' convert xpt to sas function
 #'
-#' @param xpt_folder input a file directory where your xpt files is
+#' @param xpt_folder input a file directory where your xpt files are
 #'
 #' @return sas7bdat files
 #' @export 

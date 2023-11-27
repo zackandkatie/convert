@@ -7,7 +7,7 @@
 convert_xpt_to_sas(xpt_folder)
 }
 \arguments{
-\item{xpt_folder}{input a file directory where your xpt files is}
+\item{xpt_folder}{input a file directory where your xpt files are}
 }
 \value{
 sas7bdat files
@@ -16,7 +16,7 @@ sas7bdat files
 convert xpt to sas function
 }
 \examples{
-xpt_folder <- '/Users/zack/convert_xpt_to_sas'
+xpt_folder <- 'XX:/convert/xpt_test'
 xpt_files <- list.files(path = xpt_folder, pattern = "\\\\.xpt$", full.names = TRUE)
 for (file in xpt_files) {
 sas_file <- gsub("\\\\.xpt$", ".sas7bdat", file)
